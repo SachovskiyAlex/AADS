@@ -1,5 +1,6 @@
 plaintext = "криптографічнiметодизахистуінформації"
 key = "сачовський"
+
 alphabet = list("абвгґдеєжзиіїйклмнопрстуфхцчшщьюя")
 
 plaintext = plaintext.replace("i", "і").lower()
@@ -48,7 +49,4 @@ print("\nЗашифрований текст (шифротекст):")
 print(ciphertext)
 print("\nРозшифрований назад текст:")
 print(decrypted)
-
-# Перевірка відповідності
 print("\nПеревірка: розшифрування == початковий текст ->", decrypted == plaintext)
-
